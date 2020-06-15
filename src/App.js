@@ -21,7 +21,7 @@ export default function App() {
       <hr/>
 
       <button onClick={()=>setMorning(!isMorning)}>
-        update 
+        Change time
       </button>
 
     </div>
