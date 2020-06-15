@@ -21,7 +21,7 @@ export default function App() {
       <hr/>
 
       <button onClick={()=>setMorning(!isMorning)}>
-        update zikar time
+        update 
       </button>
 
     </div>
