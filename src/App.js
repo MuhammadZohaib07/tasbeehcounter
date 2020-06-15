@@ -7,9 +7,9 @@ export default function App() {
   let [isMorning, setMorning] = useState(false)
 
   return (
-    <div className={"box ${isMorning ? 'dayLight': ''}"}>
+    <div className={`box ${isMorning ? `dayLight`: ``}`}>
 
-      <h1>Good {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1>Azkaar of {isMorning ? 'Morning' : 'Evening'}</h1>
 
       <Message counter={count}/>
       <br />
@@ -21,7 +21,7 @@ export default function App() {
       <hr/>
 
       <button onClick={()=>setMorning(!isMorning)}>
-        update Day
+        update zikar time
       </button>
 
     </div>
